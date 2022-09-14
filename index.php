@@ -20,6 +20,7 @@
         <link href="css/responsive.css" rel="stylesheet"> 
     </head>
     <body>
+ 
         <!--==========Main Header Section==========-->
         <header class="main_header_area">
             <nav class="navbar navbar-default navbar-fixed-top" id="main_navbar">
@@ -90,7 +91,7 @@
             <div class="row rmit-product-section">
               <?php
               $link = mysqli_connect(
-                  "localhost",
+                  "taskc-database.c6rgkwytkapn.us-east-1.rds.amazonaws.com",
                   "db_admin",
                   "rmit_password",
                   "rmit_store_db"
